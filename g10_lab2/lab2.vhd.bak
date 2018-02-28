@@ -1,0 +1,9 @@
+entity gNN_MAC	is
+port (x : in std_logic_vector(?? downto 0) ; --first input
+      y : in std_logic_vector(?? downto 0) ; -- second input
+      N : in std_logic_vector(9 downto 0) ; -- t o t a l number of inputs 
+		clk : in std_logic; -- clock
+		rst : in std_logic; -- asynchronous active−high	r e s e t
+		mac : in std_logic_vector(?? downto 0) ; -- output of MAC unit 
+		ready : in std_logic); -- denotes the v a l i d i t y of the mac s i g n a l
+end gNN MAC;
