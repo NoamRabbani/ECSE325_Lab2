@@ -71,7 +71,9 @@ def main():
     for i in n:
         curr = fi(i,1,10,7)
         new.append(curr)
-    print(new)
+    with open("lab1-x-fixed-point.txt", "w") as text_file:
+        for i in new:
+            text_file.write(i + ' ')
 
 
 if __name__ == '__main__':
