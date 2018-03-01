@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dP:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_modelsim
+Eg10_mac
+Z1 w1519937315
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_lab2/g10_MAC.vhd
+Z6 FP:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_lab2/g10_MAC.vhd
+l0
+L5
+VDW54zQ^OczZ<WKD0_3CY03
+!s100 eRJ=iJ95ki146aKlZoH@=1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1519941303
+!i10b 1
+Z9 !s108 1519941303.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_lab2/g10_MAC.vhd|
+Z11 !s107 P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_lab2/g10_MAC.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Amac
+R2
+R3
+R4
+DEx4 work 7 g10_mac 0 22 DW54zQ^OczZ<WKD0_3CY03
+l19
+L16
+VSf:YFB4nCZ65gX7R05?e>2
+!s100 _L9K_k_^Pjo5@7>KiaTOm3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eg10_mac_tb
+Z14 w1519940835
+Z15 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R3
+R4
+R0
+Z16 8P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_modelsim/g10_MAC_tb.vhd
+Z17 FP:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_modelsim/g10_MAC_tb.vhd
+l0
+L8
+Vz3J`ML4YfUiFU8n=7>Q?_0
+!s100 `63WWbZiB=1W762I1VGXV2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_modelsim/g10_MAC_tb.vhd|
+Z19 !s107 P:/_WINTER2018/ECSE325/ECSE325_Lab2.1/g10_modelsim/g10_MAC_tb.vhd|
+!i113 1
+R12
+R13
+Atest
+R15
+R2
+R3
+R4
+Z20 DEx4 work 10 g10_mac_tb 0 22 z3J`ML4YfUiFU8n=7>Q?_0
+l43
+L11
+Z21 VIg8VF:VSUiV?a6:URj90D0
+Z22 !s100 U>Jmb<;ROQ`9W?VYIlZCG2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
