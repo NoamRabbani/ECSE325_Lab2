@@ -1,4 +1,4 @@
-P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd
+P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -7,56 +7,9 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_textio
 -- Compiling entity g10_MAC_tb
 -- Compiling architecture test of g10_MAC_tb
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(22): near "g10_MAC": (vcom-1576) expecting COMPONENT.
-** Warning: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(30): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(31): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(32): near "out": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(33): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(34): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(35): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(36): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(44): (vcom-1136) Unknown identifier "x_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(45): (vcom-1136) Unknown identifier "y_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(46): (vcom-1136) Unknown identifier "N_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(49): (vcom-1136) Unknown identifier "mac_out".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(50): (vcom-1136) Unknown identifier "ready_out".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(44): (vcom-1484) Unknown formal identifier "x".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(45): (vcom-1484) Unknown formal identifier "y".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(46): (vcom-1484) Unknown formal identifier "N".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(47): (vcom-1484) Unknown formal identifier "clk".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(48): (vcom-1484) Unknown formal identifier "rst".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(49): (vcom-1484) Unknown formal identifier "mac".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(50): (vcom-1484) Unknown formal identifier "ready".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(58): Cannot drive signal 'clk' of mode IN.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(59): (vcom-1136) Unknown identifier "clk_PERIOD".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(59): Type error resolving infix expression "/" as type std.STANDARD.TIME.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(60): Cannot drive signal 'clk' of mode IN.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(61): (vcom-1136) Unknown identifier "clk_PERIOD".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(61): Type error resolving infix expression "/" as type std.STANDARD.TIME.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(71): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(72): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(79): Cannot drive signal 'rst' of mode IN.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(80): (vcom-1136) Unknown identifier "file_VECTORS_X".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(81): (vcom-1136) Unknown identifier "file_VECTORS_Y".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(84): (vcom-1136) Unknown identifier "file_VECTORS_X".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(84): Type error resolving prefix expression "not" as type std.STANDARD.BOOLEAN.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(85): (vcom-1136) Unknown identifier "file_VECTORS_X".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(86): (vcom-1136) Unknown identifier "v_x_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(87): (vcom-1136) Unknown identifier "file_VECTORS_Y".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(88): (vcom-1136) Unknown identifier "vIline2".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(88): (vcom-1136) Unknown identifier "vyin".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(90): Illegal target for signal assignment.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(90): (vcom-1136) Unknown identifier "x_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(91): Illegal target for signal assignment.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(91): (vcom-1136) Unknown identifier "y_in".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(95): (vcom-1136) Unknown identifier "ready_out".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(95): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(96): (vcom-1136) Unknown identifier "mac_out".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(97): (vcom-1136) Unknown identifier "file_RESULTS".
-** Error: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(102): VHDL Compiler exiting
+** Warning: P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_modelsim2/g10_MAC_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 
-} {10.0 11.0 12.0 58.0} {}} P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_lab2/lab2.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_lab2/lab2.vhd
+} {} {}} P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_lab2/lab2.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/_WINTER2018/ECSE325/ECSE325_Lab2/g10_lab2/lab2.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

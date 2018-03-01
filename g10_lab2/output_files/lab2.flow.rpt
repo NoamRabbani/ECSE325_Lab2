@@ -1,5 +1,5 @@
 Flow report for lab2
-Wed Feb 28 17:06:38 2018
+Thu Mar 01 11:55:25 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,27 +40,27 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------------+
 ; Flow Summary                                                                           ;
 +-------------------------------------+--------------------------------------------------+
-; Flow Status                         ; Successful - Wed Feb 28 17:06:38 2018            ;
+; Flow Status                         ; Successful - Thu Mar 01 11:55:25 2018            ;
 ; Quartus II 64-Bit Version           ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                       ; lab2                                             ;
 ; Top-level Entity Name               ; g10_MAC                                          ;
 ; Family                              ; Cyclone V                                        ;
 ; Device                              ; 5CSEMA5F31C6                                     ;
 ; Timing Models                       ; Preliminary                                      ;
-; Logic utilization (in ALMs)         ; 11 / 32,070 ( < 1 % )                            ;
+; Logic utilization (in ALMs)         ; N/A                                              ;
 ; Total registers                     ; 21                                               ;
-; Total pins                          ; 54 / 457 ( 12 % )                                ;
+; Total pins                          ; 54                                               ;
 ; Total virtual pins                  ; 0                                                ;
-; Total block memory bits             ; 0 / 4,065,280 ( 0 % )                            ;
-; Total DSP Blocks                    ; 1 / 87 ( 1 % )                                   ;
+; Total block memory bits             ; 0                                                ;
+; Total DSP Blocks                    ; 1                                                ;
 ; Total HSSI RX PCSs                  ; 0                                                ;
 ; Total HSSI PMA RX Deserializers     ; 0                                                ;
 ; Total HSSI PMA RX ATT Deserializers ; 0                                                ;
 ; Total HSSI TX PCSs                  ; 0                                                ;
 ; Total HSSI PMA TX Serializers       ; 0                                                ;
 ; Total HSSI PMA TX ATT Serializers   ; 0                                                ;
-; Total PLLs                          ; 0 / 6 ( 0 % )                                    ;
-; Total DLLs                          ; 0 / 4 ( 0 % )                                    ;
+; Total PLLs                          ; 0                                                ;
+; Total DLLs                          ; 0                                                ;
 +-------------------------------------+--------------------------------------------------+
 
 
@@ -69,7 +69,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/28/2018 17:05:04 ;
+; Start date & time ; 03/01/2018 11:55:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab2                ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 203178703649417.151985550409124       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 203178703681696.151992332209768       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                  ; --            ; --          ; eda_simulation ;
@@ -96,41 +96,29 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 603 MB              ; 00:00:02                           ;
-; Fitter                    ; 00:01:01     ; 1.5                     ; 2300 MB             ; 00:01:14                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 485 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:14     ; 1.0                     ; 1085 MB             ; 00:00:09                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 480 MB              ; 00:00:01                           ;
-; Total                     ; 00:01:24     ; --                      ; --                  ; 00:01:27                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:03     ; 1.0                     ; 599 MB              ; 00:00:02                           ;
+; Total                ; 00:00:03     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; 156TR4120-09     ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; 156TR4120-09     ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; 156TR4120-09     ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; 156TR4120-09     ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; 156TR4120-09     ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; 156TR4120-05     ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off lab2 -c lab2
-quartus_fit --read_settings_files=off --write_settings_files=off lab2 -c lab2
-quartus_asm --read_settings_files=off --write_settings_files=off lab2 -c lab2
-quartus_sta lab2 -c lab2
-quartus_eda --read_settings_files=off --write_settings_files=off lab2 -c lab2
 
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab2
-Wed Feb 28 17:05:07 2018
+Thu Mar 01 11:55:25 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                           ;
 +-------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status         ; Successful - Wed Feb 28 17:05:06 2018            ;
+; Analysis & Synthesis Status         ; Successful - Thu Mar 01 11:55:25 2018            ;
 ; Quartus II 64-Bit Version           ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                       ; lab2                                             ;
 ; Top-level Entity Name               ; g10_MAC                                          ;
@@ -254,12 +254,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Wed Feb 28 17:05:02 2018
+    Info: Processing started: Thu Mar 01 11:55:21 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2 -c lab2
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file lab2.vhd
     Info (12022): Found design unit 1: g10_MAC-MAC
     Info (12023): Found entity 1: g10_MAC
+Info (12021): Found 1 design units, including 1 entities, in source file testbench.vhd
+    Info (12023): Found entity 1: g10_MAC_tb
 Info (12127): Elaborating entity "g10_MAC" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "ready" is stuck at VCC
@@ -282,9 +284,9 @@ Info (21057): Implemented 76 device resources after synthesis - the final resour
     Info (21061): Implemented 21 logic cells
     Info (21062): Implemented 1 DSP elements
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 614 megabytes
-    Info: Processing ended: Wed Feb 28 17:05:07 2018
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 610 megabytes
+    Info: Processing ended: Thu Mar 01 11:55:25 2018
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 
 
